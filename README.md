@@ -174,6 +174,20 @@ Unlike traditional storage platforms:
 
 ---
 
+## 🎥 Project Demo Video
+
+<p align="center">
+  <a href="https://youtu.be/tAroec4CzHI">
+    <img src="https://img.youtube.com/vi/tAroec4CzHI/maxresdefault.jpg" width="420">
+  </a>
+</p>
+
+<p align="center">
+Click the image above to watch how Data Vault works 🚀
+</p>
+
+---
+
 # 👩‍💻 Author
 
 **Akshitha Chiluka**
