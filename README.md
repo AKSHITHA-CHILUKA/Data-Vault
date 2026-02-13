@@ -1,134 +1,182 @@
-# 🔐 Data Vault – Secure File Storage & Intelligent Document Management
+# 🔐 Data Vault — Secure File Storage & Intelligent Document Management
 
-Data Vault is an AI-powered secure cloud document management platform that combines strong encryption, intelligent document analysis, controlled sharing workflows, and trust-based monitoring.
-
-Unlike traditional file storage systems, Data Vault transforms documents into secure, intelligent, and trackable digital assets.
+<p align="center">
+AI-powered secure cloud storage with encryption, intelligent document analysis, trust-based sharing, and RAG chatbot interaction.
+</p>
 
 ---
 
-## 🚀 Key Features
+## 🚀 Overview
 
-- 🔐 Secure file upload with password protection and AES encryption
-- 🤖 AI-powered document analysis using Google Gemini API
-- 📄 Automatic category detection & event extraction
-- 🔗 Secure sharing with permissions and OTP authentication
+Data Vault is an advanced secure document management platform that combines strong encryption, artificial intelligence, and controlled sharing workflows.
+
+Unlike traditional file storage platforms, Data Vault transforms documents into intelligent, trackable, and secure digital assets.
+
+---
+
+## ⭐ Key Features
+
+- 🔐 AES encryption + password protection
+- 🤖 AI document analysis (Google Gemini API)
+- 📄 Automatic categorization & event extraction
+- 🔗 Secure sharing with permissions & OTP authentication
 - 💬 Retrieval-Augmented Generation (RAG) chatbot
-- 📊 Trust score monitoring and analytics dashboard
+- 📊 Trust score tracking & analytics dashboard
 
 ---
 
-## 🏗️ High-Level System Architecture
+# 🏗️ System Architecture
 
-![Architecture](Images/high-level-system-architecture.png)
-
-The system follows a layered architecture:
-
-- Streamlit UI
-- Python Backend Controller
-- Security Module
-- AI Intelligence Module
-- MongoDB Database
-- Vector Database (Chroma)
+<p align="center">
+  <img src="Images/high-level-system-architecture.png" width="700">
+</p>
 
 ---
 
-## 📄 File Upload & Processing Flow
+<details>
+<summary>📄 File Upload & Processing Flow</summary>
 
-![Upload Flow](Images/file-upload-processing-flow.png)
+<br>
 
-Workflow:
+<p align="center">
+  <img src="Images/file-upload-processing-flow.png" width="600">
+</p>
 
-1. User uploads document
+### Flow:
+
+1. User uploads file
 2. Content extraction
-3. Gemini AI analysis
-4. Category detection & event extraction
+3. AI analysis using Gemini
+4. Category + event detection
 5. User confirmation
 6. Password protection
 7. AES encryption
 8. Secure storage
 
+</details>
+
 ---
 
-## 🔐 Security Authentication Flow
+<details>
+<summary>🔐 Security Authentication Flow</summary>
 
-![Security Flow](Images/security-authentication-flow.png)
+<br>
 
-Multi-layer security approach:
+<p align="center">
+  <img src="Images/security-authentication-flow.png" width="600">
+</p>
 
-- Password verification
-- Decryption key validation
+### Security Layers:
+
+- Password validation
+- Decryption key verification
 - OTP authentication
 - Temporary decryption
-- Secure viewing/download
+- Secure viewing or download
+
+</details>
 
 ---
 
-## 💬 RAG Chatbot Architecture
+<details>
+<summary>💬 RAG Chatbot Architecture</summary>
 
-![RAG Chatbot](Images/rag-chatbot-architecture.png)
+<br>
 
-Process:
+<p align="center">
+  <img src="Images/rag-chatbot-architecture.png" width="650">
+</p>
 
-1. User query
-2. Query embedding
-3. Vector DB similarity search
-4. Retrieve relevant chunks
-5. Context injection into prompt
-6. Gemini AI response
+### Process:
+
+1. User asks question
+2. Query converted to embeddings
+3. Similarity search in vector DB
+4. Relevant context retrieved
+5. Gemini generates answer
+
+</details>
 
 ---
 
-## 🔗 File Sharing & Trust Score Workflow
+<details>
+<summary>🔗 File Sharing & Trust Score Workflow</summary>
 
-![Sharing Flow](Images/file-sharing-trust-score-workflow.png)
+<br>
 
-Features:
+<p align="center">
+  <img src="Images/file-sharing-trust-score-workflow.png" width="650">
+</p>
+
+### Features:
 
 - Permission-based sharing
 - OTP-secured access
 - View/download/reshare tracking
 - Trust score updates
-- Analytics dashboard
+- Analytics monitoring
+
+</details>
 
 ---
 
-## ⚙️ Technology Stack
+# ⚙️ Technology Stack
 
-### Frontend
+## 🖥️ Frontend
+
 - Streamlit
+- Custom CSS styling
 
-### Backend
+## ⚙️ Backend
+
 - Python
 
-### Database
-- MongoDB
-- Chroma Vector Database
+## 🗄️ Database
 
-### APIs
-- Google Gemini AI API
-- Tavily API
-- Ngrok API
+- MongoDB — user data, file metadata, sharing workflows
+- Chroma Vector Database — document embeddings
+
+## 🔌 APIs Used
+
+- Google Gemini AI API — document analysis + chatbot
+- Tavily API — web search integration
+- Ngrok API — secure public deployment
 
 ---
 
-## 🔐 Security Design
+# 🔐 Security Design
 
-- AES encryption
+- AES encryption layer
 - Password-protected documents
-- OTP-based authentication
+- OTP authentication system
 - Zero plain-text storage
 
 ---
 
-## 🤖 AI Capabilities
+# 🤖 AI Capabilities
 
 - Automatic document categorization
 - Event extraction
-- Semantic search via embeddings
-- Context-aware chatbot interaction
+- Semantic document search
+- Context-aware chatbot responses
 
 ---
 
-## 👩‍💻 Author
+# 🎯 Speciality (What Makes Data Vault Unique)
 
-Akshitha Chiluka
+Unlike traditional storage platforms:
+
+- Files become intelligent assets
+- Security + AI combined into workflow
+- Trust score monitoring system
+- Secure reshare chain tracking
+- RAG chatbot integrated into storage system
+
+---
+
+# 👩‍💻 Author
+
+**Akshitha Chiluka**
+
+---
+
