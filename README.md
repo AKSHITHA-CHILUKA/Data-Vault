@@ -63,7 +63,7 @@ Unlike traditional file storage platforms, Data Vault transforms documents into 
 <br>
 
 <p align="center">
-  <img src="Images/security-authentication-flow.png" width="300">
+  <img src="Images/security-authentication-flow.png" width="100">
 </p>
 
 ### Security Layers:
@@ -84,7 +84,7 @@ Unlike traditional file storage platforms, Data Vault transforms documents into 
 <br>
 
 <p align="center">
-  <img src="Images/rag-chatbot-architecture.png" width="350">
+  <img src="Images/rag-chatbot-architecture.png" width="100">
 </p>
 
 ### Process:
@@ -105,7 +105,7 @@ Unlike traditional file storage platforms, Data Vault transforms documents into 
 <br>
 
 <p align="center">
-  <img src="Images/file-sharing-trust-score-workflow.png" width="350">
+  <img src="Images/file-sharing-trust-score-workflow.png" width="100">
 </p>
 
 ### Features:
